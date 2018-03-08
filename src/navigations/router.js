@@ -3,7 +3,7 @@ import { StackNavigator } from 'react-navigation';
 const RootStack = StackNavigator(
     {
         Person: {
-            Screen: App
+            Screen: PersonneContainer,
         },
         // Caract: {
         //     Screen: caracScreen
