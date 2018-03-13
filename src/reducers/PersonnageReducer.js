@@ -1,5 +1,5 @@
 // type actions
-import { /* variable type */ } from '../types/PersonnagesTypes';
+// import { /* variable type */ } from '../types/PersonnagesTypes';
 
 // initialState important !
 const initialState = {
@@ -7,14 +7,15 @@ const initialState = {
         1: {
             id: 1,
             name: 'default',
-        }
+        },
     }
 }
 
 // reducers switch case
 const PersonnagesReducer = (state = initialState, action) => {
     switch (action.type) {
-
+        default:
+            return state;
     }
 }
 

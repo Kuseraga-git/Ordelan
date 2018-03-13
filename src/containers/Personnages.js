@@ -1,17 +1,15 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import { connect } from 'react-redux';
-
 
 class PersonnageComponents extends React.Component 
 {
     render()
     {
-        return 
-        (
+        return (
             // JSX render
             <View>
-                <Text>test</Text>
+                <Text>Ordelan</Text>
             </View>
         )
     }
