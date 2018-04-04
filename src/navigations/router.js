@@ -1,9 +1,11 @@
 import { StackNavigator } from 'react-navigation';
+import { PersonnageComponents } from '../containers/Personnages';
+
 
 const RootStack = StackNavigator(
     {
         Person: {
-            Screen: PersonneContainer,
+            Screen: PersonnageComponents,
         },
         // Caract: {
         //     Screen: caracScreen
