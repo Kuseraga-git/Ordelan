@@ -1,16 +1,11 @@
 import { StackNavigator } from 'react-navigation';
-import { PersonnageComponents } from '../containers/Personnages';
+import PersonnageComponents from '../containers/Personnages';
 
 
 const RootStack = StackNavigator(
     {
-        Person: {
-            // varible: class ( IMPORTANT importer la class ) 
-            Screen: PersonnageComponents,
-        },
-        // Caract: {
-        //     Screen: caracScreen
-        // },
+        Person: PersonnageComponents,
+        
     },
     {
         initialRouteName: 'Person',
