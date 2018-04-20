@@ -5,6 +5,7 @@ import { Provider } from 'react-redux';
 import { RootStack } from './src/navigations/router';
 import store from "./src/store/index";
 import Personnages from './src/containers/Personnages';
+import Pantheon from './src/containers/Pantheon';
 
 
 export default class App extends React.Component {
@@ -12,7 +13,7 @@ export default class App extends React.Component {
     return (
       <Provider store={store}>
         <View>
-          <Personnages/>
+            <Pantheon/>
         </View>
       </Provider>
     );
